@@ -4,10 +4,10 @@
 # 2 = client and server messages
 
 smtp_debug = 0
-smtp_host = smtp.domain.com
+smtp_host = smtp.domain.tld
 smtp_port = 587
 smtp_secure = tls
-smtp_username = test@domain.com
+smtp_username = test@domain.tld
 smtp_password = P@ssw0rd
-email_from = test@domain.com
+email_from = test@domain.tld
 email_from_name = Test

@@ -11,7 +11,11 @@ Replace the required fields in the following files:
 
 - /config/.smtpconfig: `Replace with the required SMTP settings of the sender email`
 
-### 3. Add Forwarder 
+### 3. Change File Permission
+
+- /pipe/emailpipe.php: `Change the file permission to 777`
+
+### 4. Add Forwarder 
 
 Navigate to cPanel > Forwarders > Add Forwarder and set up the forwarder as follows:
 

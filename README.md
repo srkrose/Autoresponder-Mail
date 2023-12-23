@@ -18,6 +18,6 @@ Navigate to cPanel > Forwarders > Add Forwarder and set up the forwarder as foll
 - Address to Forward: `sender email`
 - Destination: Advanced Options > Pipe to a Program > `scripts/pipe/emailpipe.php`
 
-Reference:
+### Reference:
 
 - https://github.com/PHPMailer/PHPMailer

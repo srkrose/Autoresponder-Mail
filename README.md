@@ -11,6 +11,12 @@ Replace the required fields in the following files:
 
 - /config/.smtpconfig: `Replace with the required SMTP settings of the sender email`
 
+#### Debug Modes
+
+- 0 = off (for production use)
+- 1 = client messages
+- 2 = client and server messages
+
 ### 3. Change File Permission
 
 - /pipe/emailpipe.php: `Change the file permission to 777`

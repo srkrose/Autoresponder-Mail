@@ -22,7 +22,7 @@ for ($i = 0; $i < count($lines); $i++) {
             $subject = $matches[1];
 
             // Check if the subject contains "Mail delivery failed"
-            if (strpos($subject, 'Mail delivery failed') !== false) {
+            if (strpos($subject, 'Mail delivery failed') !== false || strpos($subject, 'RE:') !== false) {
                 // If it contains the specified text, exit the script
                 exit;
             }
